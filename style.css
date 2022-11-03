@@ -20,7 +20,7 @@ body {
     margin: 1em;
 }
 
-.buscar {
+.search {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +42,7 @@ button {
 button:hover {
     background: #7c7c7c6b;
 }
-input.barra-buscar {
+input.search-bar {
     border: none;
     outline: none;
     padding: 0.4em 1em;
