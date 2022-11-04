@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <div class="card">
@@ -23,12 +23,14 @@
         d="M11.412,8.586C11.791,8.966,12,9.468,12,10h2c0-1.065-0.416-2.069-1.174-2.828c-1.514-1.512-4.139-1.512-5.652,0 l1.412,1.416C9.346,7.83,10.656,7.832,11.412,8.586z">
         </path>
        </svg></button>
-    </div>
-    <div class="weather">
+     </div>
+     <div class="weather">
         <h2 class="city">Clima en CDMX</h2>
         <div class="temp">22°C</div>
-        <img src="" alt="" class="icon" />
+        <div class="flex">
+        <img src="https://openweathermap.org/img/wn/04d.png" alt="" class="icon" />
         <div class="description">Nublado</div>
+      </div>
         <div class="humidity">Humedad: 60%</div>
         <div class="wind">Velocidad del viento: 6.2 km/h</div>
     </div>
